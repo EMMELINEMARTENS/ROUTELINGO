@@ -1,0 +1,110 @@
+@import "variabele.css";
+*{
+	padding:0px;
+	margin:0px;
+}
+div.oranje {
+	font-family: 'Poppins', sans-serif;
+	display:flex;
+	justify-content: center;
+	height: 15vh;
+	background-image: linear-gradient(var(--yellow),var(--orange));
+	color:white;
+	font-size: 60pt;
+	padding: 3%;
+	 border-radius: 0% 0% 50% 50%;
+}
+div.oranjecontainer {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+div.maincontainer {
+	display:flex;
+}
+div.oranjediv {
+	display:inline-block;
+	background-color: var(--yellow);
+	height: 40vh;
+	color: var(--white);
+	margin:2%;
+	margin-left: -2%;
+	padding: 4%;
+	width: 100%;
+	border-radius:0% 0% 25% 0%;
+}
+div.doelpubliek {
+	border-radius: 0% 25% 0% 0%;
+	height: 10vh;
+}
+.round {
+	margin: 2%;
+	border-radius: 50%;
+	background-color:var(--white);
+	padding: 2%;
+	height: 4vh;
+	width: 5%;
+	border: solid var(--orange) 2px;
+	text-align: center;
+
+}
+
+.border{
+	width: 90%;
+	height: 20vh;
+	margin-bottom: 1%;
+	margin-top:2%;
+	border-radius:0% 0% 25% 0%;
+	box-shadow: 5px -3px 3px var(--grey);
+	padding-top:2%;
+	
+	
+	
+}
+.featurescontainer {
+	width: 60%;
+}
+p{
+	margin: 2%;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	margin: 2%;
+	margin-top: 4%;
+}
+
+.oranjetekst{
+	color: var(--orange);
+	font-size: 30pt;
+	padding-top:2%;
+}
+
+.routelingo {
+	margin-top: -2%;
+}
+
+.para{
+	margin-top:-1%;
+}
+.homepage, .messagepage,.searchbar{
+	height: 60vh;
+	margin-left: 17.5%;
+}
+
+.center {
+	text-align:center;
+}
+
+.dowload{
+	height: 10vh;
+	margin: 5%;
+}
+
+.QRcenter {
+	margin-left: 42%;
+}
+.aanpassing {
+	margin-left: 32%;
+}
